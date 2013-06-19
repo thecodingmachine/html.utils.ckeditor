@@ -1,0 +1,21 @@
+{
+    "name": "mouf/html.utils.ckeditor",
+    "description": "This package contains the CK editor library.",
+    "keywords": ["javascript", "mouf", "ckeditor", "WYSISYG"],
+    "homepage": "http://ckeditor.com/",
+    "type": "mouf-library",
+    "license": "GPL, LGPL, MPL",
+    "require": {
+    	"php": ">=5.3.0"
+    },
+    "extra": {
+    	"mouf": {
+	    	"install": [
+	    		{
+	    			"type": "file",
+	    			"file": "install.php"
+	    		}
+	    	]
+    	}
+    }
+}
