@@ -4,7 +4,7 @@
     "keywords": ["javascript", "mouf", "ckeditor", "WYSISYG"],
     "homepage": "http://ckeditor.com/",
     "type": "mouf-library",
-    "license": "GPL, LGPL, MPL",
+    "license": "GPL",
     "require": {
     	"php": ">=5.3.0"
     },
