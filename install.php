@@ -11,7 +11,7 @@ InstallUtils::init(InstallUtils::$INIT_APP);
 // Let's create the instance
 $moufManager = MoufManager::getMoufManager();
 
-WebLibraryInstaller::installLibrary("javascript.bootstrap",
+WebLibraryInstaller::installLibrary("javascript.ckeditor",
 	array(
 		'vendor/mouf/html.utils.ckeditor/ckeditor/ckeditor.js'
 	)
