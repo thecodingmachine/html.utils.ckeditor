@@ -1,18 +1,22 @@
 CKEDITOR.dialog.add( 'jwpDialog', function( editor ) {
 	
 	videoPaths = [];
-	for (path in bce_files){
-		var fileExt = path.split('.').pop();
-		if ( $.inArray(fileExt, ['wmv', 'mp4', 'avi']) !== -1 ){
-			videoPaths.push([bce_files[path], path]);
+	if (typeof bce_files != "undefined"){
+		for (path in bce_files){
+			var fileExt = path.split('.').pop();
+			if ( $.inArray(fileExt, ['wmv', 'mp4', 'avi']) !== -1 ){
+				videoPaths.push([bce_files[path], path]);
+			}
 		}
 	}
 	
 	imagesPaths = [];
-	for (path in bce_files){
-		var fileExt = path.split('.').pop();
-		if ( $.inArray(fileExt, ['png', 'gif', 'jpg', 'jpeg']) !== -1 ){
-			imagesPaths.push([bce_files[path], path]);
+	if (typeof bce_files != "undefined"){
+		for (path in bce_files){
+			var fileExt = path.split('.').pop();
+			if ( $.inArray(fileExt, ['png', 'gif', 'jpg', 'jpeg']) !== -1 ){
+				imagesPaths.push([bce_files[path], path]);
+			}
 		}
 	}
 	
