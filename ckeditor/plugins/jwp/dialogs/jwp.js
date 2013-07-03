@@ -100,6 +100,7 @@ CKEDITOR.dialog.add( 'jwpDialog', function( editor ) {
 			var tUrl = dialog.getValueOf( 'tab-basic', 'thumb_url' );
 			
 			var script = editor.document.createElement( 'script' );
+			script.setAttribute('type', 'text/javascript');
 			script.setText('\
 				jwplayer("'+id+'").setup({\
 					file: "' + vUrl + '",\
