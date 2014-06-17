@@ -1,6 +1,6 @@
 {
     "name": "mouf/html.utils.ckeditor",
-    "description": "This package contains the CK editor library.",
+    "description": "This package contains the CK editor library with an installer for the Mouf PHP framework.",
     "keywords": ["javascript", "mouf", "ckeditor", "WYSISYG"],
     "homepage": "http://ckeditor.com/",
     "type": "mouf-library",
